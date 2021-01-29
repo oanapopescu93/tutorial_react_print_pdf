@@ -1,0 +1,47 @@
+{
+  "name": "idr-export-button",
+  "version": "0.1.0",
+  "private": true,
+  "description": "export button",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "canvg": "^3.0.7",
+    "devextreme": "^20.2.3",
+    "devextreme-react": "^20.2.3",
+    "html2canvas": "^1.0.0-rc.7",
+    "jquery": "^3.5.1",
+    "jspdf": "^2.1.1",
+    "jspdf-autotable": "^3.5.13",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-build-dist": "0.0.8",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-build-dist --bundle-name index.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
