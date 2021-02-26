@@ -1,2 +1,2 @@
-# export_module
-tutorial on how to make a react module + export
+# React Tutorial
+React app to print a pdf
